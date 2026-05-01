@@ -1,0 +1,30 @@
+body{
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: peru;
+    animation: color-change 2s infinite ;
+}
+@keyframes color-change{
+    0%{color: blanchedalmond;}
+    50%{color: black;}
+    100%{ color: blue;}
+}
+img{
+    width: 250px;
+    height:250px ;
+    border-radius:10px ;
+    margin:10px ;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform:scale(1.1) ;
+    border-radius:30px ;
+}
+iframe{
+    margin-top: 15px;
+}
